@@ -49,7 +49,7 @@ class NavBarPlugin(octoprint.plugin.StartupPlugin,
         self._checkTempTimer.start()
 
     def updateSoCTemp(self):
-        temp = self.sbc.checkSoCTemp()
+        temp = 22
         self._logger.debug("match: %s" % temp)
         self._plugin_manager.send_plugin_message(self._identifier,
                                                  dict(isSupported=self.sbc.is_supported,

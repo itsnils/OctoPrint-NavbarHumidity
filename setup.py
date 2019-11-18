@@ -3,14 +3,14 @@ import setuptools
 
 ########################################################################################################################
 
-plugin_identifier = "navbartemp"
+plugin_identifier = "navbarhud"
 plugin_package = "octoprint_%s" % plugin_identifier
-plugin_name = "OctoPrint-NavbarTemp"
+plugin_name = "OctoPrint-NavbarHud"
 plugin_version = "0.11"
-plugin_description = "Displays temperatures on navbar"
-plugin_author = "Jarek Szczepanski"
-plugin_author_email = "imrahil@imrahil.com"
-plugin_url = "https://github.com/imrahil/OctoPrint-NavbarTemp"
+plugin_description = "Displays Hud on navbar"
+plugin_author = "Test"
+plugin_author_email = "Test"
+plugin_url = "https://github.com/itsnils/OctoPrint-NavbarHumidity"
 plugin_license = "AGPLv3"
 plugin_additional_data = ['libs']
 
